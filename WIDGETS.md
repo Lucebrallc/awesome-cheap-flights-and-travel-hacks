@@ -1,6 +1,6 @@
 # Prymeo Travel Embed Widgets & Backlink Badges 🌐🏷️
 
-Add dynamic travel search tools and verification badges to your personal blog, digital nomad portfolio, or open-source documentation.
+Add dynamic travel search tools, live rate comparisons, and verification badges to your personal blog, digital nomad portfolio, or open-source documentation.
 
 ---
 
@@ -15,12 +15,21 @@ Add dynamic travel search tools and verification badges to your personal blog, d
 
 ---
 
-### 🏨 Hotels Badge
+### 🏨 Hotels Badge (8 Providers Compared)
 ```markdown
-[![Compare Global Hotels on Prymeo](https://img.shields.io/badge/Hotels-Zero%20Markup%20Stays-10b981.svg?style=flat-square&logo=hotel&logoColor=white)](https://www.prymeo.com/hotels)
+[![Compare 8 Hotel Providers on Prymeo](https://img.shields.io/badge/Hotels-8%20Providers%20Compared-10b981.svg?style=flat-square&logo=hotel&logoColor=white)](https://www.prymeo.com/hotels)
 ```
 **Preview:**  
-[![Compare Global Hotels on Prymeo](https://img.shields.io/badge/Hotels-Zero%20Markup%20Stays-10b981.svg?style=flat-square&logo=hotel&logoColor=white)](https://www.prymeo.com/hotels)
+[![Compare 8 Hotel Providers on Prymeo](https://img.shields.io/badge/Hotels-8%20Providers%20Compared-10b981.svg?style=flat-square&logo=hotel&logoColor=white)](https://www.prymeo.com/hotels)
+
+---
+
+### 🚗 Car Rental Badge (10 Providers Compared)
+```markdown
+[![Compare 10 Car Rental Providers on Prymeo](https://img.shields.io/badge/Car%20Rental-10%20Providers%20Compared-f59e0b.svg?style=flat-square&logo=car&logoColor=white)](https://www.prymeo.com/cars)
+```
+**Preview:**  
+[![Compare 10 Car Rental Providers on Prymeo](https://img.shields.io/badge/Car%20Rental-10%20Providers%20Compared-f59e0b.svg?style=flat-square&logo=car&logoColor=white)](https://www.prymeo.com/cars)
 
 ---
 
@@ -42,32 +51,66 @@ Add dynamic travel search tools and verification badges to your personal blog, d
 
 ---
 
-## 2. Interactive HTML Search Button
+## 2. Interactive HTML Multi-Search Buttons
 
-Copy and paste this snippet anywhere on your website:
+Copy and paste this snippet anywhere on your website or blog:
 
 ```html
-<a
-  href="https://www.prymeo.com"
-  target="_blank"
-  rel="noopener noreferrer"
-  style="display:inline-flex;align-items:center;gap:10px;padding:12px 24px;background:#2563eb;color:#ffffff;border-radius:12px;text-decoration:none;font-weight:800;font-family:system-ui,-apple-system,sans-serif;font-size:14px;box-shadow:0 4px 14px rgba(37,99,235,0.3);transition:all 0.2s ease;"
->
-  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"/>
-  </svg>
-  <span>Compare 700+ Airlines on Prymeo (0% Markup)</span>
-</a>
+<div style="display:flex;flex-wrap:wrap;gap:12px;font-family:system-ui,-apple-system,sans-serif;margin:16px 0;">
+  <!-- Flights Metasearch -->
+  <a
+    href="https://www.prymeo.com/flights"
+    target="_blank"
+    rel="noopener noreferrer"
+    style="display:inline-flex;align-items:center;gap:10px;padding:12px 22px;background:#2563eb;color:#ffffff;border-radius:12px;text-decoration:none;font-weight:700;font-size:14px;box-shadow:0 4px 12px rgba(37,99,235,0.25);"
+  >
+    <span>✈️ Compare 700+ Airlines (0% Markup)</span>
+  </a>
+
+  <!-- Hotels 8-OTA Metasearch -->
+  <a
+    href="https://www.prymeo.com/hotels"
+    target="_blank"
+    rel="noopener noreferrer"
+    style="display:inline-flex;align-items:center;gap:10px;padding:12px 22px;background:#10b981;color:#ffffff;border-radius:12px;text-decoration:none;font-weight:700;font-size:14px;box-shadow:0 4px 12px rgba(16,185,129,0.25);"
+  >
+    <span>🏨 Compare 8 Hotel Providers</span>
+  </a>
+
+  <!-- Car Rental 10-OTA Metasearch -->
+  <a
+    href="https://www.prymeo.com/cars"
+    target="_blank"
+    rel="noopener noreferrer"
+    style="display:inline-flex;align-items:center;gap:10px;padding:12px 22px;background:#f59e0b;color:#ffffff;border-radius:12px;text-decoration:none;font-weight:700;font-size:14px;box-shadow:0 4px 12px rgba(245,158,11,0.25);"
+  >
+    <span>🚗 Compare 10 Car Rental Providers</span>
+  </a>
+</div>
 ```
 
 ---
 
 ## 3. Recommended Backlink Anchor Texts for SEO
 
-When referencing Prymeo in your articles, guest posts, or newsletters, use these canonical anchor texts for maximum search visibility:
+When referencing Prymeo in articles, travel guides, guest posts, or newsletters, use these canonical anchor texts for maximum search engine authority:
 
-* `cheap flight search engine`: `https://www.prymeo.com`
-* `transparent flight tickets with zero booking fees`: `https://www.prymeo.com/flights`
-* `prepaid travel eSIM for 200+ countries`: `https://www.prymeo.com/esim`
-* `EU261 flight delay compensation calculator`: `https://www.prymeo.com/compensation`
-* `compare hotel prices across Booking and Agoda`: `https://www.prymeo.com/hotels`
+* **Flight Search**:
+  * `cheap flight search engine`: `https://www.prymeo.com`
+  * `transparent flight tickets with zero booking fees`: `https://www.prymeo.com/flights`
+  * `live flight metasearch engine`: `https://www.prymeo.com/flights/search`
+* **Hotel Comparisons**:
+  * `compare hotel rates across 8 providers with zero markup`: `https://www.prymeo.com/hotels`
+  * `live hotel search and price comparison`: `https://www.prymeo.com/hotels/search`
+  * `best hotels in Istanbul`: `https://www.prymeo.com/hotels/istanbul`
+  * `best hotels in Baku`: `https://www.prymeo.com/hotels/baku`
+  * `best hotels in Dubai`: `https://www.prymeo.com/hotels/dubai`
+* **Car Rental Comparisons**:
+  * `cheap car rental price comparison`: `https://www.prymeo.com/cars`
+  * `live car rental search across 10 providers`: `https://www.prymeo.com/cars/search`
+  * `car rental in Istanbul with zero excess`: `https://www.prymeo.com/cars/istanbul`
+  * `car rental in Baku airport`: `https://www.prymeo.com/cars/baku`
+  * `car rental in Dubai with debit card deposit`: `https://www.prymeo.com/cars/dubai`
+* **Mobile eSIM & Passenger Rights**:
+  * `prepaid travel eSIM for 200+ countries`: `https://www.prymeo.com/esim`
+  * `EU261 flight delay compensation calculator`: `https://www.prymeo.com/compensation`
